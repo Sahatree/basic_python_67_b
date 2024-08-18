@@ -77,23 +77,23 @@ this_tuple4=tuple(this_tuple3_list)
 print(this_tuple4, type(this_tuple4))
 
 this_tuple5=("apple", "banana", "coconu")
-this_tuple6=list(this_tuple5)
+this_tuple6_list=list(this_tuple5)
 this_tuple6_list.append("durian")
 this_tuple7=tuple(this_tuple6_list)
 print(this_tuple7, type(this_tuple7))
 
 this_tuple8=("apple", "banana", "coconu")
-this_tuple9_list=list(tist_tuple8)
-this_tuple6_list.remove("durian")
-this_tuple7=tuple(this_tuple6_list)
-print(this_tuple7, type(this_tuple7))
+this_tuple9_list=list(this_tuple8)
+this_tuple9_list.remove("coconu")
+this_tuple8=tuple(this_tuple9_list)
+print(this_tuple8, type(this_tuple8))
 
 del this_tuple8
 # print(this_tuple8, type(this_tuple8))
 
-tuple=("a","b", "c")
-tuple=(1, 2, 3)
-tuple3=tuple1+this_tuple2
+tuple1=("a","b", "c")
+tuple2=(1, 2, 3)
+tuple3=tuple1+tuple2
 print(tuple3, type(tuple3))
 
 """
@@ -111,7 +111,7 @@ for x in this_set:
 
 print("banana" in this_set)
 
-this_set7={"apple", "banana", "coconu"}
+this_set2={"apple", "banana", "coconu"}
 this_set2.add("durain")
 print(this_set2, type(this_set2))
 this_set2.remove("coconu")
@@ -150,7 +150,7 @@ print(len(this_dict))
 
 print(this_dict["brand"])
 print(this_dict.get("year"))
-print(this_dict.key())
+print(this_dict.keys())
 
 this_dict["year"]="1987"
 print(this_dict)
@@ -161,7 +161,7 @@ this_dict.update({
 print(this_dict)
 
 print(this_dict)
-this_dict[coler]="Red"
+this_dict["color"]="Red"
 
 del this_dict["year"]
 print(this_dict)
