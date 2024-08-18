@@ -24,7 +24,7 @@ print("Hello World")
 # Part: Python Variables
 """
 x = s #Integer
-y = "Hey Brus"#String
+y = "Hey bruh"#String
 print(x,y)
 
 x = Str(3)
@@ -64,12 +64,12 @@ my_var2= "John"
 
 
 
-2 Hey Brus
-3 Hey Brus
+2 Hey bruh
+3 Hey bruh
 """
 print(y)
 
-x = "Hey Brus"
+x = "Hey Bruh"
 print(x[2])
 print(len(x))
 print("Hey" in x)
@@ -77,7 +77,7 @@ print("What'sup" not in x)
 print(x.upper())
 print(x.lower())
 
-print(x.replace("Brus", "Sis"))
+print(x.replace("bruh", "Sis"))
 print(x.split(""))
 
 a="Apple"
